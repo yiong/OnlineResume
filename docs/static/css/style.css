@@ -249,7 +249,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: auto;
+    height: 1300px;
     background-color: white;
 
 }
@@ -329,5 +329,3 @@ ul li {
     cursor: pointer;
 
 }
-
-

@@ -104,6 +104,35 @@ h1, h2, h3, h4, h5 {
     line-height: 1.5;
 }
 
+h3 span {
+    color: #333333;
+}
+
+/*增加求职意向背景色*/
+#persona-tag {
+    background-color: #e7e1cd;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*去掉“特长爱好”的序列号*/
+.aboutme ul li {
+    list-style: none;
+}
+
+/*为爱好添加序列号样式*/
+.favor span {
+    font-size: larger;
+}
+
+p span {
+    background-color: #6f678b;
+    color: #e7e1cd;
+    border-radius: 30%;
+}
+
 .progress-list div {
     width: 100%;
     margin-left: 200px;
@@ -236,12 +265,12 @@ progress::-moz-progress-value {
     margin-top: 20px;
     margin-bottom: 10px;
     background-image: url(../image/my-blue.png);
-    background-size: 120%;
+    background-size: 84%;
     background-position: center;
     border-radius: 50%;
     border: 5px solid #607d8b;
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
 }
 
 .container {
